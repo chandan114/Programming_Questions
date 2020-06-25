@@ -30,7 +30,7 @@ for i in range( 0, time , 2):
         indx = sum_list.index(maxval)
         Winner[indx] +=1
 Winneris = max(Winner)
-print(Winner)
+
 print(Winner.index(Winneris)+1,end='') 
 
 
@@ -38,16 +38,3 @@ print(Winner.index(Winneris)+1,end='')
 
 
 
-# for i in range(len(total[0])):
-#     for j in range(n):
-#         max = total[j][i]
-#         if()
-
-    
-
-
-# 3
-# 8
-# 2 2 4 3 5 2 6 2 3
-# 3 5 7 4 3 9 3 2 2
-# 1 2 4 2 7 5 3 2 4
