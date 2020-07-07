@@ -29,4 +29,3 @@ for i in range(Testcase):
     forward_time = forward*time
     backward_time = backward*time
     print( (forward_count*forward_time) + (backward_count*backward_time) + (rem*time) )
-
