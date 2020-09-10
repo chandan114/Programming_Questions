@@ -1,6 +1,7 @@
 matrix = [[1,0,1],[1,1,0],[1,1,1]]
 
 row = [False]*3
+
 col = [False]*3
 
 for i in range(len(matrix)):
