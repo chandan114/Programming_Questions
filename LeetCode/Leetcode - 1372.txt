@@ -24,7 +24,7 @@ class Solution {
         
         
         
-        return direction(root , "left" , 1)-1;
+        return direction(root , "left" , 1)-1 ;
         
     }
 }
