@@ -1,0 +1,30 @@
+class Solution {
+     int val = 1;
+    
+    int direction(TreeNode node , String direct , int v){
+            
+            if(node==null){
+                return 0;
+            }
+    
+                
+                direction(node.left , "right" , direct ==  "right" ? 2 : v+1);
+                direction(node.right , "left" , direct ==  "left" ? 2 : v+1);
+                    
+                
+                return val = Math.max(val , v);
+                
+                
+            
+        }
+    
+    public int longestZigZag(TreeNode root) {
+        
+       
+        
+        
+        
+        return direction(root , "left" , 1)-1;
+        
+    }
+}
